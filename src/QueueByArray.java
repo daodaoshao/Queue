@@ -38,6 +38,6 @@ public class QueueByArray<T> {
 
     //遍历
     public void visit() {
-        System.out.println(Arrays.toString(items));
+        System.out.println((Arrays.toString(Arrays.copyOfRange(items,head,tail))));
     }
 }
